@@ -3,7 +3,7 @@ Website for spamming discord webhooks
 
 ## Usage
 
-Visit the website [here]().
+Visit the website [here](). (not online yet)
 
 Image down below is outdated, to see actual look of the website vist it!
 
